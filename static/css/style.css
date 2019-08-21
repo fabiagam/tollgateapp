@@ -1,0 +1,17 @@
+
+.text-center{
+    text-align:center;
+}
+.navbar-black{
+    background-color:#000;
+}
+.footer{
+    background-color: #000;
+    font-size:11px;
+    color:#fff;
+    padding:2.3em 1em;
+}
+.container-clearfix{
+    padding-right:0 !important;
+    padding-left:0 !important;
+}
