@@ -1,15 +1,15 @@
 import Layout from '../components/layouts/AppLayout';
-import About from '../components/Aboutpage';
+import Aboutpage from '../components/Aboutpage';
 import { NextSeo } from 'next-seo';
 
-const Index = () => {
+const About = () => {
     return (
      <Layout>
       <NextSeo
           title="About tollgate portal"
           description="About toll collection portal"/>
-         <About/>
+         <Aboutpage/>
       </Layout> 
     );
   }
-  export default Index;
+  export default About;
